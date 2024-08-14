@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Form</title>
+</head>
+<body>
+    <main>
+        <section class="left-div">
+            <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="" class="bg-img">
+
+            <div class="card-body">
+                <img src="images/odin-lined.png" alt="" class="icon-img"> 
+                <span class="odin">ODIN</span>
+            </div>
+        </section>
+
+        <section class="right-div">
+            <div class="info-div">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+
+            <div class="form-div">
+                <h3>Let's do this!</h3>
+                <form action="" id="myForm">
+                    <div class="form-group">
+                        <div class="left-input">
+                            <div>
+                                <label for="name">First name</label>
+                                <input type="text" placeholder="" id="name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="text" placeholder="" id="email" required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" placeholder="" id="password" minlength="8" required>
+                                <span class="error-message">*minimum of 8 characters</span>
+                            </div>
+                        </div>
+                    
+                        <div class="right-input">
+                            <div>
+                                <label for="lastName">Last name</label>
+                                <input type="text" placeholder="" id="lastName" required>
+                            </div>
+                            <div>
+                                <label for="Phonenumber">Phone number</label>
+                                <input type="number" placeholder="" id="Phonenumber" required>
+                            </div>
+                            <div>
+                                <label for="confPassword">Confirm password</label>
+                                <input type="password" placeholder="" id="confPassword" minlength="8" required>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <hr>
+
+            <div class="footer-div">
+                <button type="submit" form="myForm"><span>Create Account</span></button>
+                <p class="log-in">Already have an account? <a href="">Log in</a></p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
